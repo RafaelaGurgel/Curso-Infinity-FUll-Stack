@@ -1,0 +1,166 @@
+1. Escreva um programa que solicita o valor da hora trabalhada e o numero de horas trabalhada, em seguida exiba o valor que será pago. 
+
+// Solicita o valor da hora trabalhada
+const valorHora = parseFloat(prompt("Digite o valor da hora trabalhada:"));
+
+// Solicita o número de horas trabalhadas
+const horasTrabalhadas = parseFloat(prompt("Digite o número de horas trabalhadas:"));
+
+// Calcula o valor total a ser pago
+const totalPago = valorHora * horasTrabalhadas;
+
+// Exibe o resultado
+alert(`O valor total a ser pago é: €${totalPago.toFixed(2)}`);
+
+____________________________________________________________________________________________________
+
+
+2. Escreva um programa que solicita a distancia em km percorrida em uma viagem e o consumo médio do combustivel, em seguida informe quantos litros foram gastos na viagem
+
+// Solicita a distância percorrida em km
+const distancia = parseFloat(prompt("Digite a distância percorrida em km:"));
+
+// Solicita o consumo médio de combustível (km por litro)
+const consumoMedio = parseFloat(prompt("Digite o consumo médio de combustível (km/l):"));
+
+// Calcula a quantidade de litros gastos
+const litrosGastos = distancia / consumoMedio;
+
+// Exibe o resultado
+alert(`A quantidade de combustível gasto na viagem foi: ${litrosGastos.toFixed(2)} litros.`);
+
+____________________________________________________________________________________________________
+
+
+
+3. Escreva um programa que solicita três notas de um aluno, em seguida calcule a média e exiba o resultado.
+
+// Solicita as três notas do aluno
+const nota1 = parseFloat(prompt("Digite a primeira nota:"));
+const nota2 = parseFloat(prompt("Digite a segunda nota:"));
+const nota3 = parseFloat(prompt("Digite a terceira nota:"));
+
+// Calcula a média das notas
+const media = (nota1 + nota2 + nota3) / 3;
+
+// Exibe o resultado
+alert(`A média do aluno é: ${media.toFixed(2)}`);
+
+
+
+____________________________________________________________________________________________________
+
+
+
+4. Escreva um programa que solicita o valor do lado de um quadrado, em seguida calcule a área e exiba o resultado.
+area = lado x lado
+
+// Solicita o valor do lado do quadrado
+const lado = parseFloat(prompt("Digite o valor do lado do quadrado:"));
+
+// Calcula a área do quadrado
+const area = lado * lado;
+
+// Exibe o resultado
+alert(`A área do quadrado é: ${area.toFixed(2)} unidades quadradas.`);
+
+
+
+____________________________________________________________________________________________________
+
+
+
+5. Escreva um programa que solicita a base e altura de um triangulo, em seguida calcule a área e exiba o resultado
+area = base x altura / 2
+// Solicita o valor da base do triângulo
+const base = parseFloat(prompt("Digite o valor da base do triângulo:"));
+
+// Solicita o valor da altura do triângulo
+const altura = parseFloat(prompt("Digite o valor da altura do triângulo:"));
+
+// Calcula a área do triângulo
+const area = (base * altura) / 2;
+
+// Exibe o resultado
+alert(`A área do triângulo é: ${area.toFixed(2)} unidades quadradas.`);
+
+
+
+____________________________________________________________________________________________________
+6. Escreva uma programa que solicita uma quantidade de horas inteira e exiba a a quantidade de minutos total
+1 horas = 60 minutos
+
+// Solicita a quantidade de horas
+const horas = parseInt(prompt("Digite a quantidade de horas inteiras:"), 10);
+
+// Calcula a quantidade total de minutos
+const minutos = horas * 60;
+
+// Exibe o resultado
+alert(`A quantidade total de minutos é: ${minutos} minutos.`);
+
+
+____________________________________________________________________________________________________
+7. Converta a quantidade de horas da questão anterior para segundos
+
+
+// Solicita a altura em metros
+const alturaMetros = parseFloat(prompt("Digite a altura em metros:"));
+
+// Converte a altura para centímetros
+const alturaCentimetros = alturaMetros * 100;
+
+// Exibe o resultado
+alert(`A altura em centímetros é: ${alturaCentimetros.toFixed(2)} cm.`);
+
+
+
+____________________________________________________________________________________________________
+
+8. Escreva um programa que solicita uma altura e metros e converta para centímetros
+
+// Solicita a altura em metros
+const alturaMetros = parseFloat(prompt("Digite a altura em metros:"));
+
+// Converte a altura para centímetros
+const alturaCentimetros = alturaMetros * 100;
+
+// Exibe o resultado
+alert(`A altura em centímetros é: ${alturaCentimetros} cm.`);
+
+
+____________________________________________________________________________________________________
+9. Escreva um programa que solicita uma distancia em quilometros e converta para metros
+
+
+// Solicita a distância em quilómetros
+const distanciaQuilometros = parseFloat(prompt("Digite a distância em quilómetros:"));
+
+// Converte a distância para metros
+const distanciaMetros = distanciaQuilometros * 1000;
+
+// Exibe o resultado
+alert(`A distância em metros é: ${distanciaMetros} metros.`);
+
+
+____________________________________________________________________________________________________
+10. Escreva um programa que solicita peso e altura de um usuário e exiba o IMC
+IMC = peso / altura²
+
+
+// Solicita o peso do usuário (em kg)
+const peso = parseFloat(prompt("Digite o seu peso em kg:"));
+
+// Solicita a altura do usuário (em metros)
+const altura = parseFloat(prompt("Digite a sua altura em metros:"));
+
+// Calcula o IMC
+const imc = peso / (altura * altura);
+
+// Exibe o resultado
+alert(`O seu IMC é: ${imc.toFixed(2)}`);
+
+
+
+
+
